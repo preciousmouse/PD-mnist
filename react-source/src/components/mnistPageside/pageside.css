@@ -1,0 +1,77 @@
+.wrapper-right{
+	float: right;
+}
+.wrapper-left{
+	float: left;
+}
+
+.header-wrapper{
+	height: 64px;
+	padding: 0 10px;
+	background-color: #668a1e;
+	cursor: pointer;
+}
+	.header-wrapper .wrapper-main{
+		font-weight: bold;
+	}
+.header-wrapper i{
+	font-size: 22px;
+    padding: 22px 10px 20px;
+	color: #fff;
+}
+	.header-wrapper i.anticon-reload{
+		font-size: 20px;
+		padding-top: 23px;
+		padding-bottom: 21px;
+	}
+	.header-wrapper .ant-switch{
+		margin: 22px 0;
+	}
+.wrapper-main{
+	overflow: hidden;
+}
+.wrapper-main-content{
+	height: 64px;
+    line-height: 64px;
+    font-size: 18px;
+	padding: 0 16px;
+	font-family: sans-serif;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.item-wrapper{
+	padding: 0 12px;
+	cursor: pointer;
+	border-bottom: 1px solid #e8e9ec;
+
+	clear: both;
+}
+.item-wrapper.item-focus{
+	background-color: #dcedc8;
+}
+.item-wrapper .wrapper-main-content{
+	height: 60px;
+	line-height: 60px;
+	padding: 0 15px;
+    font-size: 16px;
+    color: #000;
+}
+.item-wrapper i{
+	font-size: 20px;
+	padding: 20px 8px;
+}
+.item-wrapper i.anticon-loading{
+
+}
+.item-wrapper i.anticon-check{
+	color: #80ff00;
+}
+.item-wrapper i.anticon-close{
+	color: #ee486d;
+}
+.progress-wrapper{
+	padding: 8px 0;
+}

@@ -1,0 +1,20 @@
+#dependencies
+/node_modules
+
+# history
+/.history
+
+# production
+/build
+
+# cache
+*.png
+*.rar
+*.txt
+/reports
+/venv
+/.vscode
+
+#model
+/mnist-model
+/PD-L1-analyze

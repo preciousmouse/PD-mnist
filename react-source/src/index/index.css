@@ -1,0 +1,30 @@
+/*
+ * @Author: preciousmouse 
+ * @Date: 2018-12-18 18:19:36 
+ * @Last Modified by: preciousmouse
+ * @Last Modified time: 2019-03-28 06:36:37
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* html,body,#content,.app,.page{
+	height:100%;
+} */
+html{
+	overflow-y: hidden;
+}
+
+.left-sider{
+	width: 20% !important;
+    flex: unset !important;
+    min-width: 300px !important;
+    max-width: unset !important;
+}
+.right-sider{
+	width: 65%;
+	min-width: 650px;
+}

@@ -1,0 +1,1 @@
+copy ./build/index/* ../express-server/views/
